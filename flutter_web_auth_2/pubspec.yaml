@@ -6,16 +6,20 @@ repository: https://github.com/ThexXTURBOXx/flutter_web_auth_2
 issue_tracker: https://github.com/ThexXTURBOXx/flutter_web_auth_2/issues
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.0.0"
 
 dependencies:
+  app_links: ^3.4.3
   flutter:
     sdk: flutter
   flutter_web_auth_2_platform_interface: ^2.1.4
   flutter_web_plugins:
     sdk: flutter
   url_launcher: ^6.1.6
+  url_protocol:
+    git: https://github.com/Adam-Langley/flutter_url_protocol.git
+    ref: upgrade-win32-v5
   window_to_front: ^0.0.3
 
 dev_dependencies:
