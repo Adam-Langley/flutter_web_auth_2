@@ -17,9 +17,12 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   url_launcher: ^6.1.6
+  
   url_protocol:
-    git: https://github.com/Adam-Langley/flutter_url_protocol.git
-    ref: upgrade-win32-v5
+    git: 
+      url: https://github.com/Adam-Langley/flutter_url_protocol.git
+      ref: upgrade-win32-v5
+
   window_to_front: ^0.0.3
 
 dev_dependencies:
